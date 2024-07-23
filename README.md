@@ -31,6 +31,12 @@ C++ Code and hints for the lecture "Programming expertise" at the University of 
 - [Rcpp](https://cran.r-project.org/web/packages/Rcpp/index.html)
 - [Python bindings overview](https://realpython.com/python-bindings-overview)
 - [SWIG - interace generator for Octave, Python, R, Tcl etc](https://swig.org/)
+
+### Source code tools
+
+- [cppcheck](http://cppcheck.net/) - C++ code checker/linter - install with: `sudo dnf|apt install cppcheck`
+- [astyle](https://astyle.sourceforge.net/) - C++ source code formatter - install: with `sudo dnf|apt install astyle`
+- 
 ### CLI-Libraries
 
 - [argparse](https://github.com/p-ranav/argparse) - Python argparse alike
