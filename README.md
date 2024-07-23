@@ -8,6 +8,17 @@ C++ Code and hints for the lecture "Programming expertise" at the University of 
 - Mkdoc
 - Sheepboard
 
+## Code
+
+- pex namespace with utility functions
+- pex::dstring class - extension of std::string
+
+## Templates
+
+- app-argv - tepmplate for new applications using argc/argv parsing
+- app-argparse - template for new applications using the [argparse](https://github.com/p-ranav/argparse) library
+- app-popl - template for new applications using the [popl](https://github.com/badaix/popl) library
+  
 ## Links
 
 ### Documentation
