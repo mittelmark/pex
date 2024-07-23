@@ -18,14 +18,19 @@ C++ Code and hints for the lecture "Programming expertise" at the University of 
 - app-argv - tepmplate for new applications using argc/argv parsing
 - app-argparse - template for new applications using the [argparse](https://github.com/p-ranav/argparse) library
 - app-popl - template for new applications using the [popl](https://github.com/badaix/popl) library
-  
+
 ## Links
 
 ### Documentation
 
 - https://en.cppreference.com/w/
 - https://devdocs.io/
-  
+
+## Interfacing C++ with R and Python
+
+- [Rcpp](https://cran.r-project.org/web/packages/Rcpp/index.html)
+- [Python bindings overview](https://realpython.com/python-bindings-overview)
+- [SWIG - interace generator for Octave, Python, R, Tcl etc](https://swig.org/)
 ### CLI-Libraries
 
 - [argparse](https://github.com/p-ranav/argparse) - Python argparse alike
