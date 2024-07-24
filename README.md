@@ -16,7 +16,7 @@ C++ Code and hints for the lecture "Programming expertise" at the University of 
 ## Templates
 
 - [app-argv.cpp](https://github.com/mittelmark/pex/blob/main/templates/app-argv.cpp) - template for new applications using pureargc/argv parsing
-- app-argparse - template for new applications using the [argparse](https://github.com/p-ranav/argparse) library
+- [app-argparse.cpp](https://github.com/mittelmark/pex/blob/main/templates/app-argparse.cpp) - template for new applications using the [argparse](https://github.com/p-ranav/argparse) library
 - app-popl - template for new applications using the [popl](https://github.com/badaix/popl) library
 
 ## Links
