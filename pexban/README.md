@@ -1,19 +1,12 @@
 ---
 title: Pexban Project Summer Semester 2024
 author: Detlef Groth
-date: 2024-07-24 20:58
-include-before: |
-    <style>
-    body { max-width: 1000px; font-family: Candara, sans-serif; }
-    pre  { font-family: Consolas; monospaced; }
-    table { min-width: 400px; border-spacing: 5px;  border-collapse: collapse; }
-    </style>
-    <center>some links on top</center>
+date: 2024-07-24 21:00
 ---
 
 ## Introduction
 
-THis project was  performed in the first 4 weeks of the cf the C++ part of the
+This project was  performed in the first 4 weeks of the cf the C++ part of the
 course  "Programming  Expertise"  for Master  students  Bioinformatics  at the
 University    of    Potsdam.    The    project    was    inspired    by    the
 [Clikan](https://github.com/kitplummer/clikan)  project, a
@@ -30,7 +23,7 @@ The topics were:
                 [popl](https://github.com/badaix/popl) command line parsing library
 
 Week 3 and 4 uses as well  the  `pex::get_home_directory`  function  defined  in
-[pex.cpp](pex.cpp) which was create to demonstrated the use of a namespace.
+[pex.cpp](pex.cpp) which was created to demonstrate the use of a namespace.
 
 ## Screenshot
 

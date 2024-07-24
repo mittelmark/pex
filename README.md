@@ -1,10 +1,11 @@
 # pex
 
-C++ Code and hints for the lecture "Programming expertise" at the University of Potsdam
+C++ Code for homeworks and C++ hints and links for the lecture  "Programming  Expertise" at the University
+of Potsdam for the Master course Bioinformatics in the second semester.
 
 ## Projects
 
-- Pexban
+- [Pexban](pexban) - Kanban board application Summer semester 2024
 - Mkdoc
 - Sheepboard
 
