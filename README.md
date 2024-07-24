@@ -46,7 +46,7 @@ snippets:
    copy this file into the MicroEmacs user folder, usually ~/.jasspa, then use
    the command  "Esc x  abbrev-list"  in the editor to see the  abbreviations,
    clicking on them inserts the text snippets
-- [geany.conf]((https://github.com/mittelmark/pex/blob/main/snippets/cpp.eaf) for Geany - just add the lines of this file to your snippets.conf file
+- [geany.conf](https://github.com/mittelmark/pex/blob/main/snippets/geany.conf) for Geany - just add the lines of this file to your snippets.conf file
     
 ## Links
 
