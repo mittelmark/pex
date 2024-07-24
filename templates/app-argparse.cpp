@@ -23,7 +23,8 @@ int main(int argc, char *argv[]) {
           .default_value(2);
     // options with values:
     program.add_argument("-r","--round")
-          .help("the rounding digits");
+          .help("the rounding digits")
+          .default_value(2);
     // flags with no values:
     program.add_argument("-v", "--verbose")
           .help("set verbose on")
