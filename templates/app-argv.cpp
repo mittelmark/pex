@@ -10,11 +10,11 @@ R"(Example application, Max Musterman, University of Potsdam, 2024
       APPNAME --round 2 number
 
     Options:
-      -h --help     Show this screen.
-      --round   n   Rounding digits [default: 2]
+      -h, --help        Show this screen.
+      -r, --round   n   Rounding digits [default: 2]
 
     Arguments:
-      number        Number which will bre rounded 
+      number            Number which will be squared and rounded 
 )";
 
 static const char USAGE[] =
@@ -31,6 +31,7 @@ void usage (std::string appname, bool help = false) {
 int main(int argc, char *argv[]) {
     std::string appname = argv[0];
     std::regex isnumber("^[+-]?([0-9]*[.])?[0-9]+$");
+    std::regex isoption("^-{1,2}[a-zA-Z0-9]+");    
     float square   = 0 ; // positional parameter
     bool square_set = false; // must be given
     int round = 2;       // option, default: 2    
@@ -55,9 +56,15 @@ int main(int argc, char *argv[]) {
                     round = std::stoi(argv[i+1]);
                     i = i + 1;
                 }
+            } else if (std::regex_search(carg,isoption)) {
+                std::cout << "Error: option '" << carg << "' not implemented!'" << std::endl;
+                usage(argv[0]);
             } else if (std::regex_match(carg,isnumber)) { // positional
                 square = std::stof(carg);
                 square_set = true;
+            } else {
+                std::cout << "Error: '" << carg << "' is not a number!" << std::endl;
+                usage(argv[0]);
             }
         }
     }
