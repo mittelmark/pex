@@ -74,3 +74,13 @@ C++ Code and hints for the lecture "Programming expertise" at the University of 
 - [nlohmann/json](https://github.com/nlohmann/json) - using Json like STL containers
 - [maddy](https://github.com/progsource/maddy) - Markdown conversion to HTML
  
+### Videos about new C++ features C++ Weekly
+
+- [C++98](https://www.youtube.com/watch?v=78Y_LRZPVRg)
+- [C++11](https://www.youtube.com/watch?v=D5n6xMUKU3A)
+- [C++14](https://www.youtube.com/watch?v=mXxNvaEdNHI)
+- [C++17](https://www.youtube.com/watch?v=QpFjOlzg1r4)
+- [C++20](https://www.youtube.com/watch?v=N1gOSgZy7h4)
+- [C++23](https://www.youtube.com/watch?v=N2HG___9QFI)
+- [90 features in 20 minutes](https://www.youtube.com/watch?v=VpqwCDSfgz0)
+
