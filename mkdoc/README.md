@@ -1,7 +1,7 @@
 ---
 title: Mkdoc - Documentation creater for any Programming Language
 author: Detlef Groth
-date: 2024-07-24 21:38
+date: 2024-07-24 21:43
 ---
 
 ## Introduction
@@ -58,4 +58,6 @@ So in C++ code that should like like this  (example from mkdoc.cpp):
 
 The mkdoc application just extracts the Markdown comments into a Markdown file
 and optionally converts them as well to HTML code using the maddy library.
+
+See here the ouput of the mkdoc documentation as [mkdoc.md](mkdoc.md).
 
