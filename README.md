@@ -19,6 +19,35 @@ C++ Code and hints for the lecture "Programming expertise" at the University of 
 - [app-argparse.cpp](https://github.com/mittelmark/pex/blob/main/templates/app-argparse.cpp) - template for new applications using the [argparse](https://github.com/p-ranav/argparse) library
 - [app-popl.cpp](https://github.com/mittelmark/pex/blob/main/templates/app-popl.cpp) - template for new applications using the [popl](https://github.com/badaix/popl) library
 
+You can use these templates with the following editors like this:
+
+- Nano
+    - just use the insert file feature
+- Geany (Linux)
+    - copy the files into a folder ~/.config/geany/templates/files
+    - the menu entry "File -> New (from template=" should then show these files as new starting files
+- Jasspa MicroEmacs - https://githhub.com/mittelmark/microemacs
+    - create folder ~/.jasspa/cpp
+    - copy the files into this folder but change the extension from cpp to etf
+    (MicroEmacs template file)    
+    - if you then create a new Cpp-file and thereafter execute the command "Esc x  insert-template"  and then press
+    the TAB key you should see the  templates  where the  selected one will be
+    inserted at the current cursor position
+    -alternatively  you can simply use the  insert-file  command of MicroEmacs
+    after pressing "Esc x" (first escape, then x) and then select the file to insert
+    
+## Snippets
+
+Here are  editor  snippets  which  allow  you more  easily  to embed  C++ code
+snippets:
+
+-  for MicroEmacs
+  [cpp.eaf](https://github.com/mittelmark/pex/blob/main/snippets/cpp.eaf) - just
+   copy this file into the MicroEmacs user folder, usually ~/.jasspa, then use
+   the command  "Esc x  abbrev-list"  in the editor to see the  abbreviations,
+   clicking on them inserts the text snippets
+- [cpp.conf]((https://github.com/mittelmark/pex/blob/main/snippets/cpp.eaf) for Geany - just add the lines of this file to your snippets.conf file
+    
 ## Links
 
 ### Documentation
