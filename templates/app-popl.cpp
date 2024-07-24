@@ -1,6 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include <regex>
+#include <stdexcept>
 #include "include/popl.hpp"
 
 static const char USAGE[] =
