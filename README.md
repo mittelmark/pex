@@ -7,6 +7,7 @@ of Potsdam for the Master course Bioinformatics in the second semester.
 
 - [Pexban](pexban) - 4 weeks project of a Kanban board application (SS2024)
 - Sheepboard - 4 weeks project to play the game sheeps and wolf (SS2023) 
+- [Calc](calc) - exercise for writing a terminal tool to exercise addition and multiplication (SS2022)
 - [Grep](grep) - exercise for using std::vector to implement R like grep functions (SS2022)
 - [Leven](leven) - exercise for implementing the Levenshtein edit distance (SS2022)
 - [GoUtils](goutils) - exercise start of a parser for Gene Ontology obo files (SS2021)
@@ -95,7 +96,12 @@ snippets:
 - [gzstream](https://www.cs.unc.edu/Research/compgeom/gzstream/) - reading compressed files as streams
 - [ghc/filesystem](https://github.com/gulrak/filesystem) - filesystem (C++17) backport
 
- 
+### Reflection
+
+- [visit_struct](https://github.com/cbeck88/visit_struct) - loop over members
+  of a structure
+- [reglexpr](https://en.cppreference.com/w/cpp/keyword/reflexpr) - C++ proposal
+
 ### Backports of new C++ features to older compilers
 
 - [fmt](https://github.com/fmtlib/fmt) - std::format (C++20) alternative and more
