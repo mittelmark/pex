@@ -1,7 +1,7 @@
 ---
 title: Implementing of a Blossum class which allows retrieval of Matri values
 author: Detlef Groth
-date: 2024-07-25 09:20
+date: 2024-07-25 09:31
 ---
 
 ## Introduction
@@ -11,7 +11,7 @@ that could retrieve values of a Blossum matrix.
 
 ## Files
 
-- [Blossum.cpp](Blossum.cpp) -  exercising:
+- [Blosum.cpp](Blosum.cpp) -  exercising:
     - input and output operators
     - class and function definition
     - overwriting operators
