@@ -3,10 +3,11 @@
 C++ Code for exerices, homeworks and C++ hints and links for the lecture  "Programming  Expertise" at the University
 of Potsdam for the Master course Bioinformatics in the second semester.
 
-## Projects
+## Exercise and Homework Projects
 
 - [Pexban](pexban) - 4 weeks project of a Kanban board application (SS2024)
 - Sheepboard - 4 weeks project to play the game sheeps and wolf (SS2023) 
+- Pesports - 3 weeks project for a guess game for properties of amino acids (SS2020-SS2022)
 - [Blosum](blosum)  - exercise  for parsing  inline  tabular data and using
   operator overloading (SS2022)
 - [Calc](calc) - exercise for writing a terminal tool to exercise addition and multiplication (SS2022)
@@ -16,10 +17,13 @@ of Potsdam for the Master course Bioinformatics in the second semester.
 - [Minimat](matrix) - exercise for implementing a matrix class using templates (SS2021)
 - [Mkdoc](mkdoc) - 2 weeks project for a API documentation tool using Markdown (SS2020)
 
-## Code
+## Code Examples
 
-- pex namespace with utility functions
-- pex::dstring class - extension of std::string
+- Speed - code for discussing speed issues fixing regex issues and using memoization
+- pex  namespace   with  utility   functions   like  grep,  gsub,  any,  all,
+  get_home_directory, file_isgzipped ...
+- pex::dstring  class - extension of std::string - discussing pros and cons of
+  extending this class
 
 ## Templates
 
