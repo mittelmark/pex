@@ -1,7 +1,7 @@
 // -!- C++ -!- //////////////////////////////////////////////////////////////
 //  Author        : Detlef Groth
 //  Created       : Mon Jun 14 16:09:26 2021
-//  Last Modified : <240725.0755>
+//  Last Modified : <240725.0810>
 //
 //  Description	  : Basic implementation of Matrix like class
 //
