@@ -9,6 +9,7 @@ of Potsdam for the Master course Bioinformatics in the second semester.
 - Sheepboard - 4 weeks project to play the game sheeps and wolf (SS2023) 
 - [Leven](leven) - exercise for implementing the Levenshtein edit distance (SS2022)
 - [GoUtils](goutils) - exercise start of a parser for Gene Ontology obo files (SS2021)
+- [Minimat](matrix) - exercise for implementing a matrix class using templates (SS2021)
 - [Mkdoc](mkdoc) - 2 weeks project for a API documentation tool using Markdown (SS2020)
 
 ## Code
