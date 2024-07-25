@@ -6,8 +6,9 @@ of Potsdam for the Master course Bioinformatics in the second semester.
 ## Projects
 
 - [Pexban](pexban) - Kanban board application (SS2024)
-- [Mkdoc](mkdoc) - API documentation tool using Markdown (SS2020)
 - Sheepboard (SS2023)
+- [Leven](leven) - exercise for implementing the Levenshtein edit distance (SS2022)
+- [Mkdoc](mkdoc) - API documentation tool using Markdown (SS2020)
 - [GoUtils.cpp](goutils) - start of a parser for Gene Ontology obo files (SS2020)
 
 ## Code
