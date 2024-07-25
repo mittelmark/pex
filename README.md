@@ -7,6 +7,7 @@ of Potsdam for the Master course Bioinformatics in the second semester.
 
 - [Pexban](pexban) - 4 weeks project of a Kanban board application (SS2024)
 - Sheepboard - 4 weeks project to play the game sheeps and wolf (SS2023) 
+- [Grep](grep) - exercise for using std::vector to implement R like grep functions (SS2022)
 - [Leven](leven) - exercise for implementing the Levenshtein edit distance (SS2022)
 - [GoUtils](goutils) - exercise start of a parser for Gene Ontology obo files (SS2021)
 - [Minimat](matrix) - exercise for implementing a matrix class using templates (SS2021)
