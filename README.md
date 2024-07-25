@@ -1,15 +1,15 @@
 # pex
 
-C++ Code for homeworks and C++ hints and links for the lecture  "Programming  Expertise" at the University
+C++ Code for exerices, homeworks and C++ hints and links for the lecture  "Programming  Expertise" at the University
 of Potsdam for the Master course Bioinformatics in the second semester.
 
 ## Projects
 
-- [Pexban](pexban) - Kanban board application (SS2024)
-- Sheepboard (SS2023)
+- [Pexban](pexban) - 4 weeks project of a Kanban board application (SS2024)
+- Sheepboard - 4 weeks project to play the game sheeps and wolf (SS2023) 
 - [Leven](leven) - exercise for implementing the Levenshtein edit distance (SS2022)
-- [Mkdoc](mkdoc) - API documentation tool using Markdown (SS2020)
-- [GoUtils.cpp](goutils) - start of a parser for Gene Ontology obo files (SS2020)
+- [GoUtils](goutils) - exercise start of a parser for Gene Ontology obo files (SS2021)
+- [Mkdoc](mkdoc) - 2 weeks project for a API documentation tool using Markdown (SS2020)
 
 ## Code
 
@@ -25,19 +25,21 @@ of Potsdam for the Master course Bioinformatics in the second semester.
 You can use these templates with the following editors like this:
 
 - Nano
-    - just use the insert file feature
+    - use the insert file feature
 - Geany (Linux)
     - copy the files into a folder ~/.config/geany/templates/files
-    - the menu entry "File -> New (from template=" should then show these files as new starting files
+    - the menu entry "File -> New (from template)" should then show these files as new starting files
 - Jasspa MicroEmacs - https://githhub.com/mittelmark/microemacs
-    - create folder ~/.jasspa/cpp
-    - copy the files into this folder but change the extension from cpp to etf
-    (MicroEmacs template file)    
-    - if you then create a new Cpp-file and thereafter execute the command "Esc x  insert-template"  and then press
-    the TAB key you should see the  templates  where the  selected one will be
-    inserted at the current cursor position
-    -alternatively  you can simply use the  insert-file  command of MicroEmacs
-    after pressing "Esc x" (first escape, then x) and then select the file to insert
+    - use the insert-file command, press Esc, then x then enter insert-file in
+      the command line and write down the file name supported by using the TAB
+      key for filename competion
+    - or use the insert-template menu:
+        - create folder ~/.jasspa/cpp 
+        - copy the files into this folder but change the extension from cpp to etf
+          (Micro__E__macs __t__emplate __f__ile)    
+        - if you then create a new Cpp-file and thereafter execute the command "Esc x  insert-template"  and then press
+          the TAB key you should see the  templates  where the  selected one will be
+          inserted at the current cursor position
     
 ## Snippets
 
