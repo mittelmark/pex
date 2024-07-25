@@ -5,9 +5,10 @@ of Potsdam for the Master course Bioinformatics in the second semester.
 
 ## Projects
 
-- [Pexban](pexban) - Kanban board application Summer semester 2024
-- [Mkdoc](mkdoc) - API documentation tool using Markdown from Summer semester 2020
-- Sheepboard
+- [Pexban](pexban) - Kanban board application (SS2024)
+- [Mkdoc](mkdoc) - API documentation tool using Markdown (SS2020)
+- Sheepboard (SS2023)
+- [GoUtils.cpp](goutils) - start of a parser for Gene Ontology obo files (SS2020)
 
 ## Code
 
