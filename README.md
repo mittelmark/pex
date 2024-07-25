@@ -7,7 +7,7 @@ of Potsdam for the Master course Bioinformatics in the second semester.
 
 - [Pexban](pexban) - 4 weeks project of a Kanban board application (SS2024)
 - Sheepboard - 4 weeks project to play the game sheeps and wolf (SS2023) 
-- [Blossum](blossum)  - exercise  for parsing  inline  tabular data and using
+- [Blosum](blosum)  - exercise  for parsing  inline  tabular data and using
   operator overloading (SS2022)
 - [Calc](calc) - exercise for writing a terminal tool to exercise addition and multiplication (SS2022)
 - [Grep](grep) - exercise for using std::vector to implement R like grep functions (SS2022)
