@@ -1,7 +1,7 @@
 ---
 title: Spped tips and tricks for C++ code
 author: Detlef Groth
-date: 2024-07-26 06:22
+date: 2024-07-26 06:23
 ---
 
 ## Introduction
@@ -55,12 +55,13 @@ The concept of memoization  extends  extensive  function calls with a check if
 that  function was already  called with the same set of  arguments. If this is
 the case, the previously  computed result is returned  instead of re-computing
 it again. If you need more details, here is a 
-[tutorial on geeksforgeeks](https://www.geeksforgeeks.org/what-is-memoization-a-complete-tutorial/)
+[tutorial                                                                   on
+geeksforgeeks](https://www.geeksforgeeks.org/what-is-memoization-a-complete-tutorial/).
 
 But now here an example for calculating the Fibonacci number giving in the PEX lecture.
 
 
-```{.cpp}
+```{cpp}
 #include <iostream>
 #include <chrono>
 #include <map>
