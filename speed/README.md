@@ -1,7 +1,7 @@
 ---
 title: Spped tips and tricks for C++ code
 author: Detlef Groth
-date: 2024-07-26 06:23
+date: 2024-07-26 06:25
 ---
 
 ## Introduction
@@ -61,7 +61,7 @@ geeksforgeeks](https://www.geeksforgeeks.org/what-is-memoization-a-complete-tuto
 But now here an example for calculating the Fibonacci number giving in the PEX lecture.
 
 
-```{cpp}
+```cpp
 #include <iostream>
 #include <chrono>
 #include <map>
