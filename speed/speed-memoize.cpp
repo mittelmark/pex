@@ -13,13 +13,17 @@ int fibr (int x) {
 }
 
 // constexpr keyword does not help
+// can only have on return statement
 constexpr int fibc (int x) {
+    int val = 0;
     if (x == 0) {
-        return(0);
+        val = 0;
     } else if (x < 3) {
-        return(1) ;
+        val = 1 ;
+    } else {
+        val = fibc(x-2)+(fibc(x-1));
     }
-    return(fibc(x-2)+(fibc(x-1)));
+    return(val);
 }
 // version using memoization with a 
 // static map variable
@@ -49,14 +53,17 @@ int main (int argc, char * argv[]) {
     std::cout << "Result for fib(" << n <<") = " << r << std::endl;
     auto start = std::chrono::system_clock::now();
     r = fibr(n);
+    r = fibr(n);    
     auto diff = std::chrono::system_clock::now() - start ;
     std::cout << "Elapsed time (ms) recursive (" <<r<<"): " << diff.count()/1000000 << std::endl;
     start = std::chrono::system_clock::now();
     r = fibm(n);
+    r = fibm(n);    
     diff = std::chrono::system_clock::now() - start ;
     std::cout << "Elapsed time (ms) memoized  (" <<r<<"): " << diff.count()/1000000 << std::endl;
     start = std::chrono::system_clock::now();
     r = fibc(n);
+    r = fibc(n);    
     diff = std::chrono::system_clock::now() - start ;
     std::cout << "Elapsed time (ms) constexpr (" <<r<<"): " << diff.count()/1000000 << std::endl;
     return(0);
