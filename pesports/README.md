@@ -1,7 +1,7 @@
 ---
 title: PEsports application- Guess game for amino acid properties
 author: Detlef Groth
-date: 2024-07-26 19:04
+date: 2024-07-26 19:08
 ---
 
 ## Introduction
@@ -17,7 +17,7 @@ abbreviations  and biophysical properties.
    Homework: implement interactive menu for with several choices.
 -  [pe-sports-02.cpp](pe-sports-02.cpp)  - migrating  code to class code, size
    game implementation starting, random nummer generation
--  [pe-sports-03.cpp](pe-sports-03.cpp)  and  [xpe-sports.cpp](xpe-sports.cpp)
+-  [pe-sports-03.cpp](pe-sports-03.cpp)  and  [xpe-sports-03.cpp](xpe-sports-03.cpp)
    extending application using inheritance, using the include directive
 - [Makefile](Makefile) - containing the comands to compile the code   
    

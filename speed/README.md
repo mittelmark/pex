@@ -1,7 +1,7 @@
 ---
-title: Spped tips and tricks for C++ code
+title: Speed tips and tricks for C++ code
 author: Detlef Groth
-date: 2024-07-26 06:27
+date: 2024-07-26 19:08
 ---
 
 ## Introduction
