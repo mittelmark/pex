@@ -1,7 +1,7 @@
 ---
 title: Spped tips and tricks for C++ code
 author: Detlef Groth
-date: 2024-07-26 06:25
+date: 2024-07-26 06:27
 ---
 
 ## Introduction
@@ -54,7 +54,7 @@ more five times faster.
 The concept of memoization  extends  extensive  function calls with a check if
 that  function was already  called with the same set of  arguments. If this is
 the case, the previously  computed result is returned  instead of re-computing
-it again. If you need more details, here is a 
+it again. This is as well called caching the result. If you need more details, here is a 
 [tutorial                                                                   on
 geeksforgeeks](https://www.geeksforgeeks.org/what-is-memoization-a-complete-tutorial/).
 
