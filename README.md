@@ -12,7 +12,10 @@ of Potsdam for the Master course Bioinformatics in the second semester.
   operator overloading (SS2022)
 - [Calc](calc) - exercise for writing a terminal tool to exercise addition and multiplication (SS2022)
 - [Grep](grep) - exercise for using std::vector to implement R like grep functions (SS2022)
-- [Leven](leven) - exercise for implementing the Levenshtein edit distance (SS2022)
+- [Leven](leven) - exercise for  implementing  the  Levenshtein  edit distance
+  (SS2022)
+- [FASTA](fasta)  - exercise  for  parsing  FASTA  files and  extract IDs and
+  sequence lengths (SS2021)
 - [GoUtils](goutils) - exercise start of a parser for Gene Ontology obo files (SS2021)
 - [Minimat](matrix) - exercise for implementing a matrix class using templates (SS2021)
 - [Mkdoc](mkdoc) - 2 weeks project for a API documentation tool using Markdown (SS2020)
