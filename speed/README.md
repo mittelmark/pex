@@ -1,7 +1,7 @@
 ---
 title: Spped tips and tricks for C++ code
 author: Detlef Groth
-date: 2024-07-26 06:10
+date: 2024-07-26 06:19
 ---
 
 ## Introduction
@@ -18,7 +18,7 @@ for instance using  `std::regex_search(line,  std::regex('^id:  '))` you could
 speed up the code with `line.find('id: ') == 0`. 
 
 
-The example [speed-regex.cpp] compares the speed using these two approaches.
+The example [speed-regex.cpp](speed-regex.cpp) compares the speed using these two approaches.
 
 ```
 [micky speed]$ g++ speed-regex.cpp 
@@ -43,8 +43,9 @@ user    0m0,984s
 sys     0m0,039s
 ```
 
-So using the -O3 flag alone  speeds up tume  program from around 10 to just
-0.7 seconds for the 30MB file.
+So using the compiler `-O3` flag alone  speeds up the  program from around 10 to just
+0.7 seconds for the 30MB input file and using `line.find('id: ') == 0` makes it even
+more five times faster.
 
 
 ## Memoization
@@ -99,4 +100,12 @@ real    0m3,066s
 user    0m3,013s
 sys     0m0,023s
 ```
+
+Using constexpr does not have a positive impact.
+
+A long  discussion  about  general  memoization  approaches  can be  found  on
+[Stackexchange](https://stackoverflow.com/questions/17805969/writing-universal-memoization-function-in-c11).
+
+However just adding a std::map and a count check does seems for me much easier
+than these more generic approaches.
 
