@@ -45,7 +45,7 @@ std::vector<int> grep (const std::string & pattern, const std::vector<std::strin
                        const std::regex::flag_type & flag = std::regex::extended);
    
 bool grepl (const std::string & pattern, const std::string & str,  
-            const std::regex::flag_type & flag = std::regex::basic);
+            const std::regex::flag_type & flag = std::regex::extended);
 std::vector<bool> grepl (const std::string & pattern, const std::vector<std::string> & vstring,  
                          const std::regex::flag_type & flag = std::regex::extended);
 std::string gsub (const std::string & pattern, 

@@ -1,7 +1,7 @@
 ---
 title: Long Title
 author: Detlef Groth
-date: 2024-07-27 11:28
+date: 2024-07-27 11:31
 abstract: >
     Some abstract ...
     on several lines ...
@@ -105,7 +105,7 @@ __std::vector<int> grep (const std::string & pattern, const std::vector<std::str
 which match the pattern
    
 __bool grepl (const std::string & pattern, const std::string & str,  
-            const std::regex::flag_type & flag = std::regex::basic)__
+            const std::regex::flag_type & flag = std::regex::extended)__
 
 > check if a string contains the pattern
 
