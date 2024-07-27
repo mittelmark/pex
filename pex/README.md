@@ -1,7 +1,7 @@
 ---
 title: Namespace pex with utility functions for the course Programming Expertise
 author: Detlef Groth
-date: 2024-07-27 09:40
+date: 2024-07-27 11:28
 ---
 
 ## Introduction
@@ -21,8 +21,9 @@ Further there are as well  constantss to allow colored  terminal  outputs like
 
 ## Files
 
-- [pex.cpp](pex.cpp)    - implementation and main function for testing 
-- [pex.hpp](pex.hpp)  - header file
+- [pex.cpp](pex.cpp) - implementation and main function for testing 
+- [pex.hpp](pex.hpp) - header file
+- [pex.md](pex.md)   - API documentation
 - [pex-test.cpp](pex-test.cpp)  - doctest based test file
 
 To run the main  function in pex.cpp you have to define the compiler  variable
