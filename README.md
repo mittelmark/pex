@@ -24,7 +24,7 @@ of Potsdam for the Master course Bioinformatics in the second semester.
 ## Code Examples
 
 - [Speed](speed) - code for discussing speed issues fixing regex issues and using memoization
-- [pex](pex)  pex namespace   with  utility   functions   like  grep,  gsub,  any,  all,
+- [pex](pex) - pex namespace   with  utility   functions   like  grep,  gsub,  any,  all,
   get_home_directory, file_isgzipped ...
 - [pex::dstring](dstring)  class - extension of std::string - discussing pros and cons of
   extending this class
