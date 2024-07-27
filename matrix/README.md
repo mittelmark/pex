@@ -1,7 +1,7 @@
 ---
 title: Implementing a basic matrix class
 author: Detlef Groth
-date: 2024-07-25 08:01
+date: 2024-07-27 07:26
 ---
 
 ## Introduction
@@ -21,6 +21,7 @@ testing   facilities   for  instance   using  a  unit  testing   library  like
     - using templates
     - using namespaces
     - motivating the use of testing frameworks
-    
+- [IMatrix.Cpp](IMatrix.cpp) - more complete matrix class from SS2023 with functions like
+autonames, extend, setting and getting rownames etc
 
 
