@@ -1,7 +1,7 @@
 ---
 title: Long Title
 author: Detlef Groth
-date: 2024-07-27 11:33
+date: 2024-07-27 11:55
 abstract: >
     Some abstract ...
     on several lines ...
@@ -53,7 +53,7 @@ __bool file_is_gzipped (const std::string & filename)__
 
 > check if the given filename belongs to a file which is gzip compressed
 
-__std::vector<int>  file_grep (const std::string & filename, const std::string
+__std::vector&gt;int&lt;  file_grep (const std::string & filename, const std::string
 & pattern)__
 
 > search the file with the given  string  pattern and return the line  numbers
@@ -91,14 +91,14 @@ __std::string to_upper  (const std::string srcstring)__
 
 ### Regular expressions
 
-__std::vector<int> grep (const std::string & pattern, const std::string & str,
+__std::vector&lt;int&gt; grep (const std::string & pattern, const std::string & str,
                        const      std::regex::flag_type      &      flag     =
                        std::regex::extended)__
 
 > search  the given  string  with a pattern  and return the  positions  in the
 string where this pattern is found
                        
-__std::vector<int> grep (const std::string & pattern, const std::vector<std::string> & vstring, 
+__std::vector&lt;int&gt; grep (const std::string & pattern, const std::vector&lt;std::string&gt; & vstring, 
                        const std::regex::flag_type & flag = std::regex::extended)__
 
 > search the given string  vector for a pattern and retutn the vector  indices
@@ -109,7 +109,7 @@ __bool grepl (const std::string & pattern, const std::string & str,
 
 > check if a string contains the pattern
 
-__std::vector<bool> grepl (const std::string & pattern, const std::vector<std::string> & vstring,  
+__std::vector&lt;bool&gt; grepl (const std::string & pattern, const std::vector&lt;std::string&gt; & vstring,  
                          const      std::regex::flag_type     &     flag     =
                          std::regex::extended)__
 
@@ -123,9 +123,9 @@ __std::string gsub (const std::string & pattern,
 
 > do replacement  for the given string using the given pattern
  
-__std::vector<std::string> gsub (const std::string & pattern, 
+__std::vector&lt;std::string&gt; gsub (const std::string & pattern, 
                                const std::string & replace, 
-                               const std::vector<std::string> & vstring,
+                               const std::vector&ltstd::string&gt; & vstring,
                                const std::regex::flag_type & flag = std::regex::extended)__
 
 > do  replacements  for all string of the given vector using the given pattern
@@ -133,11 +133,11 @@ and return the modified strings as vector
 
 ### Boolean vector checks
 
-__bool all (const std::vector<bool> & vec)__
+__bool all (const std::vector&lt;bool&gt; & vec)__
 
 > check if all element in the given vector contains true values
 
-__bool any (const std::vector<bool> & vec)__
+__bool any (const std::vector&lt;bool&gt; & vec)__
 
 > check if the given vector has any true value
 
