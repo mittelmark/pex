@@ -6,7 +6,7 @@ of Potsdam for the Master course Bioinformatics in the second semester.
 ## Exercise and Homework Projects
 
 - [Pexban](pexban) - 4 weeks project of a Kanban board application (SS2024)
-- Sheepboard - 4 weeks project to play the game sheeps and wolf (SS2023) 
+- [Sheepboard](sheeps) - 4 weeks project to play the game sheeps and wolf (SS2023) 
 - [Pesports](pesports) - 3 weeks project for a guess game for properties of amino acids (SS2020-SS2022)
 - [Blosum](blosum)  - exercise  for parsing  inline  tabular data and using
   operator overloading (SS2022)
@@ -17,7 +17,8 @@ of Potsdam for the Master course Bioinformatics in the second semester.
 - [FASTA](fasta)  - exercise  for  parsing  FASTA  files and  extract IDs and
   sequence lengths (SS2021)
 - [GoUtils](goutils) - exercise start of a parser for Gene Ontology obo files (SS2021)
-- [Minimat](matrix) - exercise for implementing a matrix class using templates (SS2021)
+- [Minimat/IMatrix](matrix) - exercise for implementing a matrix class using templates
+  (SS2021) and a more specialzed and extend matrix for integers (SS2023)
 - [Mkdoc](mkdoc) - 2 weeks project for a API documentation tool using Markdown (SS2020)
 
 ## Code Examples
@@ -105,12 +106,6 @@ snippets:
 - [gzstream](https://www.cs.unc.edu/Research/compgeom/gzstream/) - reading compressed files as streams
 - [ghc/filesystem](https://github.com/gulrak/filesystem) - filesystem (C++17) backport
 
-### Reflection
-
-- [visit_struct](https://github.com/cbeck88/visit_struct) - loop over members
-  of a structure
-- [reglexpr](https://en.cppreference.com/w/cpp/keyword/reflexpr) - C++ proposal
-
 ### Backports of new C++ features to older compilers
 
 - [fmt](https://github.com/fmtlib/fmt) - std::format (C++20) alternative and more
@@ -125,6 +120,18 @@ snippets:
 - [nlohmann/json](https://github.com/nlohmann/json) - using Json like STL containers
 - [maddy](https://github.com/progsource/maddy) - Markdown conversion to HTML
  
+### Code tipps and Tricks
+
+#### Named Paramaters
+
+- [using a struct](https://pdimov.github.io/blog/2020/09/07/named-parameters-in-c20/)
+
+#### Reflection
+
+- [visit_struct](https://github.com/cbeck88/visit_struct) - loop over members
+  of a structure
+- [reglexpr](https://en.cppreference.com/w/cpp/keyword/reflexpr) - C++ proposal
+
 ### Videos about new C++ features C++ Weekly
 
 - [C++98](https://www.youtube.com/watch?v=78Y_LRZPVRg)
