@@ -1,7 +1,7 @@
 ---
 title: Long Title
 author: Detlef Groth
-date: 2024-07-27 11:55
+date: 2024-07-27 11:56
 abstract: >
     Some abstract ...
     on several lines ...
@@ -53,7 +53,7 @@ __bool file_is_gzipped (const std::string & filename)__
 
 > check if the given filename belongs to a file which is gzip compressed
 
-__std::vector&gt;int&lt;  file_grep (const std::string & filename, const std::string
+__std::vector&lt;int&gt;  file_grep (const std::string & filename, const std::string
 & pattern)__
 
 > search the file with the given  string  pattern and return the line  numbers
