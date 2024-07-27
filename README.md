@@ -26,7 +26,7 @@ of Potsdam for the Master course Bioinformatics in the second semester.
 - [Speed](speed) - code for discussing speed issues fixing regex issues and using memoization
 - pex  namespace   with  utility   functions   like  grep,  gsub,  any,  all,
   get_home_directory, file_isgzipped ...
-- pex::dstring  class - extension of std::string - discussing pros and cons of
+- [pex::dstring](dstring)  class - extension of std::string - discussing pros and cons of
   extending this class
 
 ## Templates
