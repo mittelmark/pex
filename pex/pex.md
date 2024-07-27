@@ -1,7 +1,7 @@
 ---
 title: Long Title
 author: Detlef Groth
-date: 2024-07-27 11:31
+date: 2024-07-27 11:33
 abstract: >
     Some abstract ...
     on several lines ...
@@ -154,7 +154,7 @@ __bool any (const std::vector<bool> & vec)__
 - __const std::string LRED = "\033[91m"__ - terminal light red
 - __const std::string LGREEN = "\033[92m"__ - terminal light green
 - __const std::string LYELLOW = "\033[93m"__ - terminal light yellow
-- __const std::string LBLUE = "\033[94m"__ - terminal light b√lue
+- __const std::string LBLUE = "\033[94m"__ - terminal light blue
 - __const std::string LMAGENTA = "\033[95m"__ - terminal light magenta
 - __const std::string LCYAN = "\033[96m"__ - terminal light cyan
 - __const std::string RESET = "\033[0m"__ - terminal defaults
