@@ -1,7 +1,7 @@
 ---
 title: Implementing a dstring class inheriting from std::string
 author: Detlef Groth
-date: 2024-07-27 08:46
+date: 2024-07-27 08:48
 ---
 
 ## Introduction
@@ -28,5 +28,5 @@ std::cout << hello.get().length() << std::endl;;
 
 - [dstring.cpp](dstring.cpp)  - implementation
 - [dstring.hpp](dstring.hpp)  - header file
-- [dstring.md](dsring.md)     - manual page
+- [dstring.md](dstring.md)     - manual page
 - [test.cpp](test.cpp)        - simple test application
