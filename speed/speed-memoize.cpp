@@ -14,6 +14,8 @@ int fibr (int x) {
 
 // constexpr keyword does not help
 // can only have on return statement
+// and as the number is taken from the argument list of argv
+// the compiler does not know how many to compute beforehand
 constexpr int fibc (int x) {
     int val = 0;
     if (x == 0) {
