@@ -33,6 +33,7 @@ of Potsdam for the Master course Bioinformatics in the second semester.
 
 - [app-argv.cpp](https://github.com/mittelmark/pex/blob/main/templates/app-argv.cpp) - template for new applications using pureargc/argv parsing
 - [app-argparse.cpp](https://github.com/mittelmark/pex/blob/main/templates/app-argparse.cpp) - template for new applications using the [argparse](https://github.com/p-ranav/argparse) library
+- [app-argparse2.cpp](https://github.com/mittelmark/pex/blob/main/templates/app-argparse2.cpp) - template for new applications using the [argparse](https://github.com/p-ranav/argparse) library
 - [app-popl.cpp](https://github.com/mittelmark/pex/blob/main/templates/app-popl.cpp) - template for new applications using the [popl](https://github.com/badaix/popl) library
 
 You can use these templates with the following editors like this:
@@ -49,7 +50,7 @@ You can use these templates with the following editors like this:
     - or use the insert-template menu:
         - create folder ~/.jasspa/cpp 
         - copy the files into this folder but change the extension from cpp to etf
-          (Micro__E__macs __t__emplate __f__ile)    
+          (Micro**E**macs *t**emplate **f**ile)    
         - if you then create a new Cpp-file and thereafter execute the command "Esc x  insert-template"  and then press
           the TAB key you should see the  templates  where the  selected one will be
           inserted at the current cursor position
