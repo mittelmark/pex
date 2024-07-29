@@ -1,31 +1,29 @@
 #include <iostream>
-#include <regex>
 #include <stdexcept>
 #include <utility>
 #include "include/argparse.hpp"
 
 int main(int argc, char *argv[]) {
-    argparse::ArgumentParser program("argparse","0.0.1");
-    int x = 2;      // decimal points    double y;   // float to be rounded 
-    double number = 0.0;
-    bool hello = false;
-    bool verbose = false;
-    // positional argument no leading dash
+    //                               appname  version
+    argparse::ArgumentParser program(argv[0],"0.0.1");
+    int r = 2;             // decimal points 
+    double number = 0.0;   // float to be rounded 
+    bool verbose = false;  // verbose example
+    // positional argument: no leading dash
     program.add_argument("number")
           .help("display the square of this given number")
           .metavar("NUMBER")
           .scan<'f',float>().store_into(number);
-    // option with parameter -leading dash
+    // option with parameter: leading dash(es)
     program.add_argument("-r","--round").help("round a number").metavar("POINTS")
-                .choices(0,1,2,3,4,5,6,7,8,9).store_into(x); 
+                .choices(0,1,2,3,4,5,6,7,8,9).store_into(r); 
     // flag
     program.add_argument("-V", "--verbose")
                 .help("set verbose on").flag().store_into(verbose);
-    // action example
+    // action example for flag
     program.add_argument("-s", "--say-hello")
           .help("Say Hello World!")
           .flag()
-          .store_into(hello)
           .action([&](const auto &){ std::cout << "Hello World!\n"; exit(0); });
     
     try {
@@ -38,7 +36,7 @@ int main(int argc, char *argv[]) {
     }
     if (verbose) { std::cout << "verbose is on\n"; }
     std::cout << "square of: " << number << " is " <<
-          std::fixed << std::setprecision(x) <<
+          std::fixed << std::setprecision(r) <<
           number*number <<  std::endl;
     return 0;
 }
