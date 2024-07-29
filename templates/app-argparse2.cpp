@@ -5,7 +5,7 @@
 #include "include/argparse.hpp"
 
 static const char USAGE[] =
-R"(Usage: APPNAME [-h,--help -v,--verbose] --round n number
+R"(Usage: APPNAME [-h,--help -v,--verbose -V,--version] --round n number
 )";
 
 int main(int argc, char *argv[]) {
