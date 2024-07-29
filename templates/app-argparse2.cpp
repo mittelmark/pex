@@ -33,7 +33,7 @@ int main(int argc, char *argv[]) {
                 .default_value(false)
                 .implicit_value(true)
                 .store_into(verbose);
-    program.add_argument("-v", "--version")
+    program.add_argument("-V", "--version")
           .help("show version information")
           .default_value(false)
           .implicit_value(true)
