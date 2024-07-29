@@ -4,16 +4,7 @@
 #include <utility>
 #include "include/argparse.hpp"
 
-static const char USAGE[] =
-R"(Usage: APPNAME [-h,--help -V,--verbose -v,--version -s,--say-hello] --round n number
-)";
-
 int main(int argc, char *argv[]) {
-    if (argc == 1) {
-        std::cout << std::regex_replace(USAGE,std::regex("APPNAME"),argv[0]) 
-              << std::endl;
-        return(0);
-    }
     argparse::ArgumentParser program("argparse","0.0.1");
     int x = 2;      // decimal points    double y;   // float to be rounded 
     double number = 0.0;
@@ -42,11 +33,10 @@ int main(int argc, char *argv[]) {
     }
     catch (const std::exception& err) {
         std::cerr << err.what() << std::endl;
-        std::cerr << std::regex_replace(USAGE,std::regex("APPNAME"),argv[0]) 
-              << std::endl;
-        exit(0);
+        std::cerr << program.usage() << std::endl;
+        std::exit(1);
     }
-    if (program["--verbose"] == true) { std::cout << "verbose is on\n"; }
+    if (verbose) { std::cout << "verbose is on\n"; }
     std::cout << "square of: " << number << " is " <<
           std::fixed << std::setprecision(x) <<
           number*number <<  std::endl;
