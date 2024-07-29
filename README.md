@@ -50,7 +50,7 @@ You can use these templates with the following editors like this:
     - or use the insert-template menu:
         - create folder ~/.jasspa/cpp 
         - copy the files into this folder but change the extension from cpp to etf
-          (Micro**E**macs *t**emplate **f**ile)    
+          (Micro**E**macs **t**emplate **f**ile)    
         - if you then create a new Cpp-file and thereafter execute the command "Esc x  insert-template"  and then press
           the TAB key you should see the  templates  where the  selected one will be
           inserted at the current cursor position
